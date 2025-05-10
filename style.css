@@ -1,0 +1,36 @@
+body {
+  background-color: #484849;
+  color: #e0e0e0;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.titulo h1 {
+  font-size: 2.5rem;
+  color: #21d12a;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.contenedor-video {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+video {
+  max-width: 90%;
+  border: 3px solid #ffffff;
+  border-radius: 10px;
+}
+
+.texto-creativo {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  background-color: #000000;
+  border-radius: 10px;
+}
